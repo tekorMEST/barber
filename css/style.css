@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+nav{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 8px;
+    box-sizing: border-box;
+    background:rgba(255, 174, 0, 0.459);
+
+}
+nav .log{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 20vh;
+}
+nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+nav ul li a{
+
+    border-radius: 6px;
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url(../assest/images/imagebabe3.jpg);
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+.container{
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 13%;
+    margin-top: 20%;
+    background-color: rgba(17, 17, 16, 0.445); 
+}
+
+.input{
+    padding: 15px;
+    width: 50%;
+    margin-left: 30%;
+    color:wheat;
+    font-weight: bolder;
+}
+.input-ib{
+    width: 100px;
+    align-items: center;
+    background-color: brown;
+    border: none;
+    padding: 10px;
+    margin-left: 50%;
+
+}
+.lie{ margin-left: 40%;
+    color: rgba(214, 212, 212, 0.952);
+    font-weight: bolder;
+    
+}
+
+.text-container {
+ width: 50%;
+    line-height: 1.6;
+    margin-left:18px;
+    
+} 
+
+.image-container{
+    width: 100%;
+    margin-right: 0%;
+
+} 
+
+
+
+.pat{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left:200px ;
+     margin-right:200px; 
+    margin-top: 7%;
+
+} 
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+} 
+
+.mat{
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    padding: 20px;
+    margin-right: 20%;
+    margin-left: 13%;
+    margin-top: 0% 
+}
+.blade{
+    margin-left: 40%;
+    font-weight: bolder;     
+}
+.razor{
+    margin-left: 50%;
+    font-size: medium;
+}
+
+.nor{
+    width: 100%;
+    margin: auto;
+    display: flex;
+     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 0px;
+    font-size: 20px;}
+/* .ali{position: relative;
+    text-align: center;}
+     */
+    .cont{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .buttom-left{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
