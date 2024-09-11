@@ -4,14 +4,16 @@ body{
     font-family: Arial;
 }
 nav{
-    position: relative;
+    position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     width: 100%;
-    height: 100px;
+    height: 120px;
     padding: 8px;
     box-sizing: border-box;
-    background:rgba(255, 174, 0, 0.459);
+    background:rgba(128, 56, 56, 0.637);
+
 
 }
 nav .log{
@@ -19,8 +21,9 @@ nav .log{
     height: 80px;
     float: left;
     font-size: 24px;
-    font-weight: bold;
-    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     
 }
 nav ul{
@@ -30,6 +33,7 @@ nav ul{
     padding: 0;
     display: flex;
     height: 20vh;
+    color: white;
 }
 nav ul li a{
     line-height: 80px;
@@ -48,10 +52,11 @@ nav ul li a{
 header{
     width: 100%;
     height: 100vh;
-    background: url(../assest/images/imagebabe3.jpg);
+    background: url(../assest/images/glarrey4.jpg);
     background-size: cover;
     background-repeat:no-repeat ;
     background-position: center;
+    padding-top: 20%;
 }
 .container{
     justify-content: center;
@@ -59,30 +64,33 @@ header{
     top: 50%;
     padding: 20px;
     margin-right: 20%;
-    margin-left: 13%;
-    margin-top: 20%;
-    background-color: rgba(17, 17, 16, 0.445); 
+    margin-left: 16%;
+    margin-top: 9%;
+    background-color: rgba(0, 0, 0, 0.404); 
 }
 
 .input{
     padding: 15px;
     width: 50%;
     margin-left: 30%;
-    color:wheat;
+    color:white;
     font-weight: bolder;
 }
 .input-ib{
-    width: 100px;
+    width: 200px;
     align-items: center;
     background-color: brown;
     border: none;
     padding: 10px;
-    margin-left: 50%;
+    margin-left: 40%;
+    font-size: large;
+    font-weight: bolder;
 
 }
 .lie{ margin-left: 40%;
-    color: rgba(214, 212, 212, 0.952);
+    color: rgba(245, 235, 235, 0.952);
     font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 
@@ -127,32 +135,77 @@ header{
 }
 .blade{
     margin-left: 40%;
+    margin-top: 10%;
     font-weight: bolder;     
 }
 .razor{
-    margin-left: 50%;
+    margin-left: 45%;
     font-size: medium;
+
 }
 
 .nor{
+    
     width: 100%;
     margin: auto;
-    display: flex;
+    margin-left: 20px;
+    display: grid;
      grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
+     grid-template-rows: 1fr;
     grid-column-gap: 50px;
     grid-row-gap: 0px;
     font-size: 20px;}
-/* .ali{position: relative;
-    text-align: center;}
-     */
-    .cont{
-        position: relative;
-        text-align: center;
-        color: white;
-    }
+
     .buttom-left{
         position: absolute;
-        bottom: 8px;
-        left: 16px;
+        top: 50%;
+        left: 50%;
+        color: white;
+        text-align: center;
+        background-color: coral;
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .nora{
+        position:relative;
+        display: inline-block;
+    }
+
+
+    .vera{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+    .sarah{
+        list-style: none;
+    
+    }
+
+    .pay{
+        
+        padding-inline: 19px;
+        
+    }
+    .gal{
+        display: inline-flex;
+        margin-left: 12%;
+        margin-right: 50%;
+    }
+    .gil{
+        width: 500px;
+        height: 800px;
+    }
+
+    .show{
+        margin-top: 10%;
+        margin-left: 40%;
+        margin-top: 10%;
+        font-weight: bolder;     
+    }
+    .rim{
+        margin-left: 18%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
     }
