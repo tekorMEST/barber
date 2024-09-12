@@ -1,64 +1,56 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+
 }
-nav{
+
+nav {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    width: 100%;
-    height: 120px;
-    padding: 8px;
-    box-sizing: border-box;
-    background:rgba(128, 56, 56, 0.637);
-
-
-}
-nav .log{
-    padding: 22px 20px;
-    height: 80px;
-    float: left;
-    font-size: 24px;
-    font-weight: bolder;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    
-}
-nav ul{
-    list-style: none;
-    float: right;
-    margin: 0;
-    padding: 0;
+    height: 50px;
+    padding: 15px;
+    background: rgba(128, 56, 56, 0.637);
     display: flex;
-    height: 20vh;
-    color: white;
+    justify-content: space-between;
 }
-nav ul li a{
-    line-height: 80px;
-    color: #fff;
-    padding: 12px 30px;
+
+
+#nav-items {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+#nav-items a {
+
     text-decoration: none;
+    color: white;
     font-size: 14px;
     font-weight: bold;
+    color: #fff;
     text-transform: uppercase;
 }
-nav ul li a{
 
-    border-radius: 6px;
-
+.logo {
+    padding: 0 0 0 80px;
 }
-header{
+
+
+header {
     width: 100%;
     height: 100vh;
     background: url(../assest/images/glarrey4.jpg);
     background-size: cover;
-    background-repeat:no-repeat ;
+    background-repeat: no-repeat;
     background-position: center;
     padding-top: 20%;
 }
-.container{
+
+.container {
     justify-content: center;
     position: relative;
     top: 50%;
@@ -66,17 +58,18 @@ header{
     margin-right: 20%;
     margin-left: 16%;
     margin-top: 9%;
-    background-color: rgba(0, 0, 0, 0.404); 
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
-.input{
+.input {
     padding: 15px;
     width: 50%;
     margin-left: 30%;
-    color:white;
+    color: white;
     font-weight: bolder;
 }
-.input-ib{
+
+.input-ib {
     width: 200px;
     align-items: center;
     background-color: brown;
@@ -85,127 +78,244 @@ header{
     margin-left: 40%;
     font-size: large;
     font-weight: bolder;
+    color: white;
 
 }
-.lie{ margin-left: 40%;
+
+.lie {
+    margin-left: 40%;
     color: rgba(245, 235, 235, 0.952);
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
+
 }
 
 .text-container {
- width: 50%;
+    width: 50%;
     line-height: 1.6;
-    margin-left:18px;
-    
-} 
+    margin-left: 18px;
 
-.image-container{
+}
+
+.image-container {
     width: 100%;
     margin-right: 0%;
 
-} 
+}
 
 
 
-.pat{
+.pat {
     display: flex;
     justify-content: center;
     width: 80%;
-    margin-left:200px ;
-     margin-right:200px; 
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 7%;
 
-} 
+}
 
-.flex-container{
+.flex-container {
     display: flex;
     justify-content: center;
-} 
+}
 
-.mat{
+.mat {
     justify-content: center;
     position: relative;
     top: 50%;
     padding: 20px;
     margin-right: 20%;
     margin-left: 13%;
-    margin-top: 0% 
+    margin-top: 0%
 }
-.blade{
+
+.blade {
     margin-left: 40%;
     margin-top: 10%;
-    font-weight: bolder;     
+    font-weight: bolder;
+    z-index: index -1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-.razor{
-    margin-left: 45%;
-    font-size: medium;
+
+.razor {
+    margin-left: 43%;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: monospace;
+    font-style: italic;
 
 }
 
-.nor{
-    
+#see {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nor {
+
     width: 100%;
     margin: auto;
     margin-left: 20px;
     display: grid;
-     grid-template-columns: repeat(3, 1fr);
-     grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
     grid-column-gap: 50px;
-    grid-row-gap: 0px;
-    font-size: 20px;}
+    /* grid-row-gap: 0px; */
+    font-size: 20px;
+}
 
-    .buttom-left{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        color: white;
-        text-align: center;
-        background-color: coral;
-        padding: 10px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
-    .nora{
-        position:relative;
-        display: inline-block;
-    }
+.buttom-left {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    text-align: center;
+    background-color: coral;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nora {
+    position: relative;
+    display: inline-block;
+    z-index: -1;
+}
 
 
-    .vera{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 10%;
-        margin-left: 5%;
-    }
-    .sarah{
-        list-style: none;
+.vera {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+    margin-left: 5%;
+}
+
+.sarah {
+    list-style: none;
+
+}
+
+.pay {
+
+    padding-inline: 19px;
+
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    height: 550px;
+}
+
+
+
+.image-size img {
+    width: 100%;
+}
+
+.show {
+    margin-top: 10%;
+    margin-left: 40%;
+
+    font-weight: bolder;
+    color: rgb(13, 21, 129);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rim {
+    margin-left: 18%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.mine {
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 0;
+    /* background-color: rgba(90, 35, 46, 0.459);
+    height: 200px;
+    width: 900px;
+    padding-left: 20px;
+    padding-right: 20px; */
+}
+
+.sarah {
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+#blue {
+    margin-left: 500px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 50px;
+    color: rgb(43, 6, 6);
+
+}
+
+#green {
+    font-weight: bolder;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.zoe {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+.ded {
+    color: white;
+}
+
+
+
+.act{
+    display: flex;
+    justify-content: space-evenly;
+    top: 50%;
+    padding: 20px;
+    margin-top: 9%;
+    background-color:rgba(128, 56, 56, 0.952);
+    height: 200px;
+}
+/* .callcall{
+    background-image:url(../assest/images/pexels-pavel-danilyuk-7518708\ \(1\).jpg) ;
+    background-attachment: fixed;
     
-    }
 
-    .pay{
-        
-        padding-inline: 19px;
-        
-    }
-    .gal{
-        display: inline-flex;
-        margin-left: 12%;
-        margin-right: 50%;
-    }
-    .gil{
-        width: 500px;
-        height: 800px;
-    }
-
-    .show{
-        margin-top: 10%;
-        margin-left: 40%;
-        margin-top: 10%;
-        font-weight: bolder;     
-    }
-    .rim{
-        margin-left: 18%;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: large;
-    }
+} */
+ .ate{
+ margin-left:200px;
+ margin-top: 200px;
+ font-weight: bolder;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .ret{
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+ }
+ #lam{
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: initial;
+ }
+ #van{
+    font-style: italic;
+    font-weight: bold;
+ }
+ .icon{
+padding-top: 100px;}
